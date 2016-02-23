@@ -1,0 +1,97 @@
+/**************
+* Base Styles *
+**************/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f9f9f9;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  background: #fff;
+  padding: 20px 0 40px;
+}
+
+footer p,
+header p {
+  color: #b3b3b3;
+}
+
+span {
+  font-weight: bold;
+  color: #999;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.important {
+  text-transform: uppercase;
+}
+
+.main-nav li {
+  text-transform: uppercase;
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+
+/*********************
+* Base Layout Styles *
+*********************/
+
+main img {
+  max-width: 100%;
+}
+
+main div {
+  margin: 40px 0 10px;
+}
+
+header {
+  padding-bottom: 25px;
+}
+
+header h1 {
+  padding: 10px;
+}
+
+.wrapper {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro img {
+  max-width: 70%;
+  margin: 40px 0 10px;
+}
+
+.contact-info {
+  padding: 40px 0;
+}
+
+.contact-message {
+  padding: 10px 0;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #b3b3b3;
+  padding: 5px 0;
+}
