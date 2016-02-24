@@ -88,12 +88,20 @@ header h1 {
   margin: 40px 0 10px;
 }
 
+.main-contact {
+  min-height: calc(100vh - 301.978px - 133.3438px);
+}
+
 .contact-info {
   padding: 40px 0;
 }
 
 .contact-message {
   padding: 10px 0;
+}
+
+.contact-footer {
+  padding-top: 60px;
 }
 
 .footer-controls {
@@ -170,6 +178,10 @@ header h1 {
     margin: auto;
   }
 
+  .main-contact {
+    min-height: calc(100vh - 167.875px - 133.3438px);
+  }
+
   .contact-message {
     width: 70%;
     margin: auto;
@@ -211,6 +223,10 @@ header h1 {
 
   .col {
     width: calc(100% / 3);
+  }
+
+  .main-contact {
+    min-height: calc(100vh - 110.875px - 133.3438px);
   }
 
   .contact-message {
